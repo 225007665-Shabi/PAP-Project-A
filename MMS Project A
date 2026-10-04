@@ -1,0 +1,128 @@
+ MUNICIPAL MANAGEMENT SYSTEM 
+ Project A
+
+
+chapwanya      226054241    Employee Management      
+Shabi          225007665    Budget Management        
+Chapwanya      226054268    Supplier Management      
+Shituleni      226023540    Asset Management         
+Macai          226046451    Reports                  
+malcom         226055809    Integration & Validation 
+herman         224071882    Testing & Documentation  
+
+ Project Description
+
+The Municipal Management System is a C-based app made  to aid a municipality manage important financial and administrative infor.
+
+The system provides modules for managing employees, budgets, suppliers, assets, and reports. It demonstrates the use of multiple C programming concepts .
+
+This project is the foundation version of the system and can be extended in future development.
+
+  System Features
+Employee Management
+
+* Add employee information.
+* Display employee information.
+* Search for employees.
+* Calculate employee salary information.
+
+Budget Management
+
+* Enter departmental budgets.
+* Enter expenditure.
+* Calculate remaining budget.
+* Determine whether expenditure is within budget.
+* Identify departments that have exceeded their budget.
+
+Supplier Management
+
+* Add supplier information.
+* Store supplier name, email, telephone number, and town.
+* Display supplier information.
+* Search for suppliers.
+* Use string functions such as `strlen()`, `strcpy()`, and `strcmp()`.
+
+Asset Management
+
+* Register municipal assets.
+* Store asset information.
+* Display assets.
+* Search for assets.
+
+Reports
+
+* Generate basic employee reports.
+* Generate budget reports.
+* Display registered suppliers.
+* Display registered municipal assets.
+
+Supplier Management Module
+
+* Supplier Name
+* Email
+* Phone
+* Town
+
+The module can:
+
+1. Accept supplier information.
+2. Display supplier information.
+3. Display the length of the supplier name.
+4. Copy the supplier name into a second variable.
+5. Search for a supplier.
+6. Display an appropriate message when the supplier is found or not found.
+
+ Compilation
+
+The project can be compiled using GCC.
+
+For example:
+
+gcc main.c employees.c budget.c suppliers.c assets.c reports.c -o MMS
+
+ Running the Program
+
+After compiling the program, run it using:
+ Windows
+MFMS.exe
+MS
+
+The program will display the main menu and allow the user to select the required module.
+
+Main Menu
+
+The system provides navigation similar to:
+
+========================================
+ MUNICIPAL FINANCIAL MANAGEMENT SYSTEM
+========================================
+
+1. Employee Management
+2. Budget Management
+3. Supplier Management
+4. Asset Management
+5. Reports
+6. Exit
+
+Enter your choice:
+
+
+
+
+ Testing
+
+The system is tested by entering valid and invalid information and checking that the expected output is displayed.
+
+Testing includes:
+
+* Adding information.
+* Displaying information.
+* Searching for existing records.
+* Searching for records that do not exist.
+* Checking string operations.
+* Checking calculations.
+* Checking invalid menu choices.
+
+ GitHub
+
+The project is maintained using GitHub.
